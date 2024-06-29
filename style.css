@@ -1,0 +1,207 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+    background-image: linear-gradient(to right, #120b27, #0c071a, #06040d, #000000);
+}
+
+
+#containerDeFora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.todoConteudo {
+    width: 350px;
+    height: 440px;
+    background-color: rgb(223, 223, 223);
+    background-image: linear-gradient(315deg, white, #f8f8f8, #e5e5e5);
+    border: 1px solid #959595;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.todoConteudo:hover {
+    box-shadow: 5px 1px 57px 1px #221251;
+    transition: .6s;
+}
+
+
+#salvePass {
+    vertical-align: middle;
+    margin: 5px;
+    font-size: 5px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.salvarsenha {
+    padding: 1px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #929292;
+    vertical-align: middle;
+    display: flex;
+    margin-top: 3px;
+    /* margin-right: 60px; */
+    /* justify-content: space-between; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+input {
+    font-weight: 500px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.nome {
+    border-radius: 3px;
+    border: 1px solid #bababa;
+}
+
+.senha {
+    border-radius: 3px;
+    border: 1px solid #bababa;
+}
+
+.botao {
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 1px solid #120b27;
+    background-color: #120b27;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    box-shadow: 1px 1px 7px 1px #9a9a9a;
+    cursor: pointer;
+}
+
+.botao:hover {
+    margin: 10px;
+    padding: 12px;
+    transition: .2s;
+    box-shadow: 1px 1px 10px 1px #dbdbdb;
+}
+
+#clientImagem {
+
+    margin-top: 50px;
+    background-color: #d7d7d7;
+    border-radius: 100%;
+    padding: 15px;
+    box-shadow: 1px 1px 7px 1px rgb(238, 238, 238);
+}
+
+#clientImagem:hover {
+    box-shadow: 1px 1px 17px 1px rgb(206, 206, 206);
+    transition: .2s;
+}
+
+
+#forgot {
+    font-size: 12px;
+    color: #929292;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0px;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#google {
+    margin: 15px;
+    cursor: pointer;
+}
+
+#google:hover {
+    width: 20px;
+    height: 20px;
+    transition: .2s;
+    margin: 15px;
+    padding: 0px;
+}
+
+#facebook {
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+#facebook:hover {
+    width: 25px;
+    height: 25px;
+    transition: .2s;
+    margin: 15px;
+    padding: 0px;
+}
+
+#linkedin {
+    margin: 15px;
+    cursor: pointer;
+}
+
+#linkedin:hover {
+    width: 28px;
+    height: 28px;
+    transition: .2s;
+    margin: 15px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+#sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 7px;
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+#registrar {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 5px;
+
+}
+
+h1 {
+    display: flex;
+    font-weight: 100;
+}
+
+/* div {
+    position: relative;
+}
+
+div svg {
+    font-size: 10px;
+    position: absolute;
+    right: 5%;
+
+} */
